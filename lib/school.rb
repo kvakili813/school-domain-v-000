@@ -21,6 +21,8 @@ attr_accessor :name, :roster
     student = []
     roster.each do |key, value|
     student = value.sort
+    roster[key] = student
+    end
   end
 
 end

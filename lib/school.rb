@@ -20,8 +20,8 @@ attr_accessor :name, :roster
   def sort
     student = []
     roster.each do |key, value|
-    student = value.sort
-    roster[key] = student
+      student = value.sort
+      roster[key] = student
     end
   end
 

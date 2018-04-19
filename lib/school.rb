@@ -17,7 +17,8 @@ attr_accessor :name, :roster
   end
 
   def sort
-    @roster.sort
+    add_student(student, grade)
+    student.sort
   end
 
 end

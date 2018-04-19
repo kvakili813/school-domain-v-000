@@ -21,6 +21,7 @@ attr_accessor :name, :roster
     students = []
     roster.each do |key, values|
       students = values.sort
+      binding.pry
       roster[key] = students
     end
   end

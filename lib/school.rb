@@ -18,8 +18,9 @@ attr_accessor :name, :roster
   end
 
   def sort
-    binding.pry
-    roster.sort
+    student = []
+    roster.each do |key, value|
+      
   end
 
 end
